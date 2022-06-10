@@ -122,7 +122,7 @@ pushd engorgio/data/dnn/script && ./convert_to_onnx.sh -c lol0 -l 720 -s 3 -b 8 
 The ONNX models are saved at `result/lol0/checkpoint/720p_4125kbps_d60_train.webm/[DNN name]`.
 
 ### 4-1. Measure the throughput of Engorgio (Environment: TensorRT Docker)
-B-F are executed inside the TensorRT Docker.
+B-E are executed inside the TensorRT Docker.
 * A. Execute the TensorRT Docker
 ```
 ./engorgio/engine/docker/run.sh -d $PWD/engorgio
@@ -143,7 +143,7 @@ pushd engine/build/eval && ./benchmark_engorgio_async -g [#gpus] -v [#videos] -i
 The results are saved at `result/evaluation/ae_server/720p/EDSR_B8_F32/s[#videos]g[#gpus]/` (e.g., `s1g1` for `#videos=1`, `#gpus=1`).
 If you're running Engorgio on a new machine, you need to set an instance name and CPU affinity in `get_decode_threads()`, `get_anchor_thread()`, `get_infer_threads()`, and `get_encode_threads()` functions (refer `engine/tool/src/tool_common.cpp`). 
 
-* F. Check if meeting the real-time constraint
+* E. Check if meeting the real-time constraint
 ```
 pushd engine/eval && python check_engorgio_realtime.py --log_dir /workspace/research/result/evaluation/ae_server/720p/EDSR_B8_F32_S3 --num_gpus [#gpus] --num_videos [#videos]  && popd
 ```
