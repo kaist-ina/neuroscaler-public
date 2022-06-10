@@ -60,6 +60,8 @@ In this tutorial, we will measure the quality and throughput for three different
 * Engorgio - It applies a DNN to selected frames (DNN model: #blocks = 8, #channels = 32, #anchors: 7.5$ of all frames)
 
 We use a different configuration for each method to fairly compare end-to-end throughput while fixing SR quality, as best as possible.
+
+### Note: Please use our local server (specified in the supplementary material) for the artifact evaluation. 
  
 ### 1. Setup (Environment: Host OS)
 * A. Clone the repository
