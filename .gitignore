@@ -1,0 +1,6 @@
+dataset
+result
+**/gpu*.sh
+**/*.pyc
+.deprecated
+*.log
