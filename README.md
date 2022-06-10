@@ -64,7 +64,7 @@ We use a different configuration for each method to fairly compare end-to-end th
 ### 1. Setup (Environment: Host OS)
 * A. Clone the repository
 ```
-git clone --recursive https://github.com/kaist-ina/engorgio.git
+git clone --recursive https://github.com/kaist-ina/engorgio-public.git ./engorgio
 ```
 * B. Install the ffmpeg, Pytorch, and TensorRT Docker image
 ```
