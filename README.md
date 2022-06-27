@@ -94,7 +94,7 @@ pushd engorgio/data/video && python3 download.py --data_dir ../../dataset && pop
 Video URL is specified in `engorgio/data/video/dataset_ae.xls`. A video is downloaded at  `dataset/raw/`.
 * B. Encode a video
 ```
-pushd engorgio/data/video && python3 encode.py --data_dir ../../dataset --duration 300 && popd
+pushd engorgio/data/video && python3 encode.py --data_dir ../../dataset --duration 60 && popd
 ```
 A video is encoded at `dataset/lol0/video/` (`*train*.webm` and `*test*.webm` are used for training and testing a DNN, respectively).
 
