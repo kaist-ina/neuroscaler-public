@@ -2,19 +2,17 @@
 
 This is an official Github repository for the SIGCOMM paper "Engorgio: Neural Enhacement at Scale".
 This project is built upon Tensorflow, Google libpvx, NVIDIA TensorRT, consisting of C/C++/Python.   
-<!-- [[Project homepage]](http://ina.kaist.ac.kr/~nemo/) [[Paper]](https://dl.acm.org/doi/10.1145/3372224.3419185) [[Video]](https://www.youtube.com/watch?v=GPHlAUYCk18&ab_channel=ACMSIGMOBILEONLINE)
 
 If you use our work for research, please cite it.
 ```
-@inproceedings{yeo2020nemo,
-  title={NEMO: enabling neural-enhanced video streaming on commodity mobile devices},
-  author={Yeo, Hyunho and Chong, Chan Ju and Jung, Youngmok and Ye, Juncheol and Han, Dongsu},
-  booktitle={Proceedings of the 26th Annual International Conference on Mobile Computing and Networking},
-  pages={1--14},
-  year={2020}
+@inproceedings{yeo2022neuroscaler,
+  title={NeuroScaler: Neural Video Enhancement at Scale},
+  author={Yeo, Hyunho, and Lim, Hwijoon and Kim, Jaehong and Jung, Youngmok and  and Ye, Juncheol and Han, Dongsu},
+  booktitle={Proceedings of the Annual conference of the ACM Special Interest Group on Data Communication on the applications, technologies, architectures, and protocols for computer communication},
+  year={2022}
 }
 ```
-Lastly, NEMO is currently protected under the patent and is retricted to be used for the commercial usage.  
+<!-- Lastly, NEMO is currently protected under the patent and is retricted to be used for the commercial usage.  
 * `BY-NC-SA` – [Attribution-NonCommercial-ShareAlike](https://github.com/idleberg/Creative-Commons-Markdown/blob/master/4.0/by-nc-sa.markdown) -->
 
 ## Claims about our artifacts 
