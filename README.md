@@ -1,4 +1,4 @@
-# NeuroScaler (SIGCOMM'22)
+# NeuroScaler (or Engorgio) (SIGCOMM'22)
 
 This is an official Github repository for the SIGCOMM paper "NeuroScaler: Neural Enhacement at Scale".
 This project is built upon Tensorflow, Google libpvx, NVIDIA TensorRT, consisting of C/C++/Python.   
